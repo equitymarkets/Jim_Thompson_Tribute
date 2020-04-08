@@ -1,99 +1,99 @@
 body {
-    background-color: #633c06;
-  }
+  background-color: #633c06;
+}
+
+hr {
+  height: 2px;
+  color: #08500b;
+  background-color: #08500b;
+  border: none;
+}
+#header {
+  position: relative;
+  display: grid;
+  height: auto;
+  width: auto;
+  border: 2px solid #08500b;
+  border-radius: 3px;
+  align-items: center;
+}
+#header::before {
+  opacity: .2;
+  content: "";
   
-  hr {
-    height: 2px;
-    color: #08500b;
-    background-color: #08500b;
-    border: none;
-  }
-  #header {
-    position: relative;
-    display: grid;
+  background-image: url('https://i.postimg.cc/CLWZbCqF/house.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+#main {
+  
+  background-color: #cbbd8b;
+  border: 2px solid #08500b;
+  border-radius: 3px;
+  margin: 2%;
+  padding: 2%;
+  
+}
+
+#title {
+  color: #022002;
+  text-align: center;
+}
+
+#sub-title {
+  color: #564407;
+  text-align: center;
+}
+
+#content {
+  border: 2px solid #08500b;
+  border-radius: 3px;
+  padding: 2%;
+  color: #564407;
+  height: auto;
+}
+
+#footer {
+  display: grid;
+  grid-gap: 10px;
+  object-fit: fill; 
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+}
+
+#tribute-link {
+  
+  border-radius: 3px;
+  text-align: center;
+  color: #811010;
+  padding: 20px;
+}
+
+#tribute-info {
+  color: #022002;
+  border-radius: 3px;
+  height: auto;
+}
+#img-div {
+  text-align: center;
+  border-radius: 3px;
+  height: auto;
+}
+#image {
+  max-width: 201px;
+  margin: auto;
+}
+#img-caption {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+#img-div>div>img {
+    max-width: 100%;
     height: auto;
-    width: auto;
-    border: 2px solid #08500b;
-    border-radius: 3px;
-    align-items: center;
-  }
-  #header::before {
-    opacity: .2;
-    content: "";
-    background: url(../images/home.jpg) no-repeat center center fixed;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-  }
-  #main {
     
-    background-color: #cbbd8b;
-    border: 2px solid #08500b;
-    border-radius: 3px;
-    margin: 2%;
-    padding: 2%;
-    
-  }
-  
-  #title {
-    color: #022002;
-    text-align: center;
-  }
-  
-  #sub-title {
-    color: #564407;
-    text-align: center;
-  }
-  
-  #content {
-    border: 2px solid #08500b;
-    border-radius: 3px;
-    padding: 2%;
-    color: #564407;
-    height: auto;
-  }
-  
-  #footer {
-    display: grid;
-    grid-gap: 10px;
-    object-fit: fill; 
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
-  }
-  
-  #tribute-link {
-    
-    border-radius: 3px;
-    text-align: center;
-    color: #811010;
-    padding: 20px;
-  }
-  
-  #tribute-info {
-    
-    color: #022002;
-    border-radius: 3px;
-    height: auto100%;
-  }
-  #img-div {
-    text-align: center;
-    border-radius: 3px;
-    height: auto;
-  }
-  #img {
-    
-    
-  }
-  #img-caption {
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-  }
-  #img-div>div>img {
-      max-width: 100%;
-      height: auto;
-      
-  }
+}
